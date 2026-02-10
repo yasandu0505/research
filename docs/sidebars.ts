@@ -23,6 +23,33 @@ const sidebars: SidebarsConfig = {
             'legislative-analysis/archive',
           ]
         },
+        {
+          type: 'category',
+          label: 'Ministry Deep Dive',
+          collapsible: true,
+          link: { type: 'doc', id: 'ministry-deep-dive/intro' },
+          items: [
+            'ministry-deep-dive/health-ministry',
+            {
+              type: 'category',
+              label: 'Act Lineage',
+              collapsible: true,
+              link: { type: 'doc', id: 'ministry-deep-dive/act-lineage/index' },
+              items: [
+                {
+                  type: 'category',
+                  label: 'Health Services Act',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/health-services-act/lineage',
+                    'ministry-deep-dive/act-lineage/health-services-act/deep-dive',
+                  ],
+                },
+              ],
+            },
+            'ministry-deep-dive/data-model',
+          ]
+        },
       ]
     },
     {
