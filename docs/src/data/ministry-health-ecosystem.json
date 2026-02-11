@@ -40,12 +40,22 @@
       "year": 1927,
       "kind": { "major": "Legislation", "minor": "ordinance" },
       "status": "active",
-      "analysisDepth": "catalog",
+      "analysisDepth": "deep",
       "pdfUrl": "http://www.au.slmc.gov.lk/wp-content/uploads/2023/02/Medical-Ordinance.pdf",
       "domainCategory": "medical-reg",
-      "summary": "Governs registration and regulation of medical practitioners in Sri Lanka through the Sri Lanka Medical Council.",
+      "summary": "Governs registration and regulation of medical practitioners, dentists, midwives, pharmacists, para-medical assistants, and nurses through the Sri Lanka Medical Council and College Council.",
       "crossReferences": ["health-services-act-12-1952"],
-      "amendments": []
+      "amendments": [
+        { "actNumber": "No. 23 of 1985", "year": 1985 },
+        { "actNumber": "No. 30 of 1987", "year": 1987 },
+        { "actNumber": "No. 25 of 1988", "year": 1988 },
+        { "actNumber": "No. 15 of 1996", "year": 1996 },
+        { "actNumber": "No. 33 of 1997", "year": 1997 },
+        { "actNumber": "No. 40 of 1998", "year": 1998 },
+        { "actNumber": "No. 6 of 2014", "year": 2014 },
+        { "actNumber": "No. 1 of 2017", "year": 2017 },
+        { "actNumber": "No. 28 of 2018", "year": 2018 }
+      ]
     },
     {
       "id": "medical-wants-ordinance-9-1912",
@@ -54,12 +64,17 @@
       "year": 1912,
       "kind": { "major": "Legislation", "minor": "ordinance" },
       "status": "active",
-      "analysisDepth": "catalog",
+      "analysisDepth": "deep",
       "pdfUrl": "https://employers.lk/wp-content/uploads/2021/03/5_Medical-Wants-Ordinance-No.9-of-1912.pdf",
       "domainCategory": "health-admin",
-      "summary": "Provides for the medical needs of estate workers and establishes obligations for employers regarding medical facilities.",
+      "summary": "Consolidates the law relating to medical wants of labourers in planting districts. Establishes Medical Wants Committee, District Medical Officer system, and export duty-based funding for estate medical care.",
       "crossReferences": [],
-      "amendments": []
+      "amendments": [
+        { "actNumber": "No. 46 of 1957", "year": 1957 },
+        { "actNumber": "No. 35 of 1958", "year": 1958 },
+        { "actNumber": "No. 33 of 1990", "year": 1990 },
+        { "actNumber": "No. 53 of 1993", "year": 1993 }
+      ]
     },
     {
       "id": "mental-disease-ordinance-1-1873",
