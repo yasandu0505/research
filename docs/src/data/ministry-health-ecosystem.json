@@ -83,12 +83,15 @@
       "year": 1873,
       "kind": { "major": "Legislation", "minor": "ordinance" },
       "status": "active",
-      "analysisDepth": "catalog",
+      "analysisDepth": "deep",
       "pdfUrl": "https://www.commonlii.org/lk/legis/consol_act/md559196.pdf",
       "domainCategory": "health-admin",
       "summary": "Regulates the care, treatment, and custody of persons of unsound mind and administration of mental health institutions.",
       "crossReferences": [],
-      "amendments": []
+      "amendments": [
+        { "actNumber": "No. 14 of 1952", "year": 1952 },
+        { "actNumber": "No. 27 of 1956", "year": 1956 }
+      ]
     },
     {
       "id": "national-health-dev-fund-13-1981",
@@ -97,12 +100,15 @@
       "year": 1981,
       "kind": { "major": "Legislation", "minor": "act" },
       "status": "active",
-      "analysisDepth": "catalog",
+      "analysisDepth": "deep",
       "pdfUrl": "https://www.lawnet.gov.lk/national-health-development-fund-3/",
       "domainCategory": "health-admin",
       "summary": "Establishes a fund and Board of Trustees for the development and improvement of health services in Sri Lanka.",
       "crossReferences": [],
-      "amendments": []
+      "amendments": [
+        { "actNumber": "No. 17 of 1984", "year": 1984 },
+        { "actNumber": "No. 26 of 1987", "year": 1987 }
+      ]
     },
     {
       "id": "nursing-homes-reg-16-1949",
@@ -111,12 +117,15 @@
       "year": 1949,
       "kind": { "major": "Legislation", "minor": "act" },
       "status": "active",
-      "analysisDepth": "catalog",
-      "pdfUrl": "http://www.commonlii.org/lk/legis/consol_act/nh551326.pdf",
+      "analysisDepth": "deep",
+      "pdfUrl": "https://lankalaw.net/wp-content/uploads/2024/03/nh551326.pdf",
       "domainCategory": "medical-reg",
       "summary": "Provides for registration and regulation of nursing homes to ensure standards of care and safety.",
       "crossReferences": ["private-medical-inst-21-2006"],
-      "amendments": []
+      "amendments": [
+        { "actNumber": "No. 62 of 1988", "year": 1988 },
+        { "actNumber": "No. 63 of 1988", "year": 1988 }
+      ]
     },
     {
       "id": "poisons-opium-drugs-17-1929",
@@ -125,12 +134,16 @@
       "year": 1929,
       "kind": { "major": "Legislation", "minor": "ordinance" },
       "status": "active",
-      "analysisDepth": "catalog",
+      "analysisDepth": "deep",
       "pdfUrl": "https://www.nddcb.gov.lk/Docs/acts/25345.pdf",
       "domainCategory": "food-drug",
       "summary": "Controls the import, export, manufacture, sale, and possession of poisons, opium, and dangerous drugs.",
       "crossReferences": ["nmra-act-5-2015"],
-      "amendments": []
+      "amendments": [
+        { "actNumber": "No. 13 of 1984", "year": 1984 },
+        { "actNumber": "No. 26 of 1986", "year": 1986 },
+        { "actNumber": "No. 41 of 2022", "year": 2022 }
+      ]
     },
     {
       "id": "private-medical-inst-21-2006",

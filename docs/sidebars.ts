@@ -64,6 +64,42 @@ const sidebars: SidebarsConfig = {
                     'ministry-deep-dive/act-lineage/medical-wants-ordinance/deep-dive',
                   ],
                 },
+                {
+                  type: 'category',
+                  label: 'Mental Disease Ordinance',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/mental-disease-ordinance/lineage',
+                    'ministry-deep-dive/act-lineage/mental-disease-ordinance/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'National Health Dev. Fund',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/national-health-dev-fund/lineage',
+                    'ministry-deep-dive/act-lineage/national-health-dev-fund/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Nursing Homes Act',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/nursing-homes-act/lineage',
+                    'ministry-deep-dive/act-lineage/nursing-homes-act/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Poisons, Opium & Drugs',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/poisons-opium-drugs/lineage',
+                    'ministry-deep-dive/act-lineage/poisons-opium-drugs/deep-dive',
+                  ],
+                },
               ],
             },
             'ministry-deep-dive/data-model',
