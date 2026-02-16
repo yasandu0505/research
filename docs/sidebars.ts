@@ -46,6 +46,15 @@ const sidebars: SidebarsConfig = {
               items: [
                 {
                   type: 'category',
+                  label: 'Food Act',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/food-act/lineage',
+                    'ministry-deep-dive/act-lineage/food-act/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
                   label: 'Health Services Act',
                   collapsible: true,
                   items: [
@@ -100,11 +109,47 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                   type: 'category',
+                  label: 'Private Medical Institutions',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/private-medical-inst/lineage',
+                    'ministry-deep-dive/act-lineage/private-medical-inst/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: "Nurses' Council Act",
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/nurses-council/lineage',
+                    'ministry-deep-dive/act-lineage/nurses-council/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
                   label: 'Poisons, Opium & Drugs',
                   collapsible: true,
                   items: [
                     'ministry-deep-dive/act-lineage/poisons-opium-drugs/lineage',
                     'ministry-deep-dive/act-lineage/poisons-opium-drugs/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'SJGH Board Act',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/sjgh-board/lineage',
+                    'ministry-deep-dive/act-lineage/sjgh-board/deep-dive',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Transplantation of Human Tissues',
+                  collapsible: true,
+                  items: [
+                    'ministry-deep-dive/act-lineage/transplantation-tissues/lineage',
+                    'ministry-deep-dive/act-lineage/transplantation-tissues/deep-dive',
                   ],
                 },
               ],
