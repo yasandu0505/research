@@ -7,15 +7,17 @@ import os
 
 # Database Setup
 sqlite_file_name = "research.db"
-# Use absolute path for Docker/Local consistency
-BASE_DIR = Path(__file__).parent.parent.parent
-sqlite_url = f"sqlite:///{BASE_DIR}/data/{sqlite_file_name}"
+# /tmp is always writable on Choreo and cloud platforms.
+# /app is read-only after deployment.
+# Override with DB_PATH env var if needed (e.g. for local dev with a mounted volume).
+DB_DIR = Path(os.environ.get("DB_PATH", "/tmp/data"))
+sqlite_url = f"sqlite:///{DB_DIR}/{sqlite_file_name}"
 
 engine = create_engine(sqlite_url)
 
 def create_db_and_tables():
-    # Ensure data dir exists
-    (BASE_DIR / "data").mkdir(parents=True, exist_ok=True)
+    # Ensure data dir exists (always writable in /tmp)
+    DB_DIR.mkdir(parents=True, exist_ok=True)
     SQLModel.metadata.create_all(engine)
 
 def get_session():
