@@ -7,22 +7,12 @@ import { Button } from "@/components/ui/button"
 import { Activity, Layers } from "lucide-react"
 import { ActsHeader } from "@/components/acts/ActsHeader"
 
-// In Docker, we talk to backend service directly
+// Fetch acts from backend - uses same NEXT_PUBLIC_API_URL as the rest of the app
 async function getActs() {
-    const apiUrl = process.env.BACKEND_INTERNAL_URL || 'http://backend:8000';
-    try {
-        const res = await fetch(`${apiUrl}/acts`, { cache: 'no-store' });
-        if (!res.ok) {
-            // Fallback for local development without docker network
-            throw new Error(`Failed to fetch from ${apiUrl}`);
-        }
-        return res.json();
-    } catch (e) {
-        // Fallback to localhost if running outside docker or different setup
-        const res = await fetch('http://localhost:8000/acts', { cache: 'no-store' });
-        if (!res.ok) throw new Error('Failed to fetch acts');
-        return res.json();
-    }
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+    const res = await fetch(`${apiUrl}/acts`, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Failed to fetch acts from ${apiUrl}`);
+    return res.json();
 }
 
 export default async function ActsPage() {
