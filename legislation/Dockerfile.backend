@@ -26,6 +26,13 @@ RUN pip install -e .
 
 EXPOSE 8000
 
+# Create a non-root user to satisfy CKV_DOCKER_3 (Choreo / Checkov security scan)
+RUN groupadd --gid 10014 appgroup && \
+    useradd --uid 10014 --gid appgroup --no-create-home appuser && \
+    chown -R appuser:appgroup /app
+
+USER 10014
+
 # Run FastAPI
 # Run Startup Script
 CMD ["/bin/bash", "scripts/start_backend.sh"]
