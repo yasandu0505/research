@@ -9,7 +9,8 @@ import { ActsHeader } from "@/components/acts/ActsHeader"
 
 // In Docker, we talk to backend service directly
 async function getActs() {
-    const apiUrl = process.env.BACKEND_INTERNAL_URL || 'http://backend:8000';
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://backend:8000';
+    console.log(apiUrl);
     try {
         const res = await fetch(`${apiUrl}/acts`, { cache: 'no-store' });
         if (!res.ok) {
